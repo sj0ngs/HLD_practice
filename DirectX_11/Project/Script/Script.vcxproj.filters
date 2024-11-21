@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Script">
+      <UniqueIdentifier>{8fa8a173-32bc-4e02-9dd7-8e22c7bd8152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Aim">
+      <UniqueIdentifier>{ee00dc04-28a8-40d7-88da-04bcda8e7647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\CameraMove">
+      <UniqueIdentifier>{abed72c4-1413-4cf1-b7ff-fd9eaa0ba376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Missile">
+      <UniqueIdentifier>{bcb4863b-e2a6-4d87-bbe8-a25e4dd29951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster">
+      <UniqueIdentifier>{32ba9b41-21c2-4c6a-9284-8d8194384732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player">
+      <UniqueIdentifier>{6abb6877-1a61-4866-a374-cdc382a872d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{f0d0f73d-85b2-4016-92ee-dfe1cbae88a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptMgr">
+      <UniqueIdentifier>{c781d7d2-3949-425b-a647-e34e3d5dd49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState">
+      <UniqueIdentifier>{c877c3b8-be9e-4d97-bdc2-8f02db99d7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Idle">
+      <UniqueIdentifier>{5a7cf10c-3c7e-46a8-88f5-3a4cf3e71268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Move">
+      <UniqueIdentifier>{4d717eea-9046-4301-ac49-2018a830b9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Dash">
+      <UniqueIdentifier>{555b1075-2ca5-4164-b7f5-7f3fd56ff1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Attack">
+      <UniqueIdentifier>{c8e4eedd-647b-4ad3-a042-d24e068d346f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Shoot">
+      <UniqueIdentifier>{ade164e1-950c-4d9f-91f2-9ff5f692a59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Projectile">
+      <UniqueIdentifier>{422afc47-e92d-4144-aa44-014e39600b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Effect">
+      <UniqueIdentifier>{58599f79-81be-4429-b41f-cf8c59f7f546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Attack">
+      <UniqueIdentifier>{91160c82-6450-418e-8c93-096b543386ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\CultBird">
+      <UniqueIdentifier>{6f7e8f5f-cb5c-43ca-9396-364a55374052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\CultBird\Idle">
+      <UniqueIdentifier>{f22c1d12-d240-434d-bea1-979c81f5b023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\CultBird\Move">
+      <UniqueIdentifier>{a081e507-4008-4256-935b-d08ca8bdcc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\CultBird\Attack">
+      <UniqueIdentifier>{de24a33b-03d0-40a0-9cec-52dc211f865d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\CultBird\Dodge">
+      <UniqueIdentifier>{acefc35f-b8b7-4a2f-861a-0f5da382c7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\CultBird\Stunned">
+      <UniqueIdentifier>{a3766858-b62b-4a7b-bd85-0eef1ef6b5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\GhostBeamBird">
+      <UniqueIdentifier>{610381b8-bca4-4ccf-bb95-97c44b3ad065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\GhostBeamBird\Idle">
+      <UniqueIdentifier>{def32b20-1df4-46b7-8aa8-2bf906627041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\GhostBeamBird\Walk">
+      <UniqueIdentifier>{f675507b-8f80-4f00-995a-421c710a5557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\GhostBeamBird\Attack">
+      <UniqueIdentifier>{026d4ba5-1608-49e1-b053-3650cdfcb1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\WarpHammer">
+      <UniqueIdentifier>{b7d4dae8-9edb-49e2-9fda-29cd09d7ee7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Block">
+      <UniqueIdentifier>{1cc0fcd9-38ad-4a88-8988-50b4f5e75cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ZOrder">
+      <UniqueIdentifier>{7e214272-f826-4347-8304-07f07b01681a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\JerkPope">
+      <UniqueIdentifier>{7dd3cfc1-58d5-4b5e-ad37-c8f61c2a9069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\JerkPope\Idle">
+      <UniqueIdentifier>{8440f75a-9c64-4c92-8851-281de526322f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\JerkPope\Attack">
+      <UniqueIdentifier>{7a766de8-8047-4ce8-93da-771c6abd929f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\JerkPope\Spawn">
+      <UniqueIdentifier>{171f8335-0848-4a5e-b625-9f3ca346ca64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\JerkPope\Teleport">
+      <UniqueIdentifier>{b6ff0d03-3ae9-4059-a853-a526671f5c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Menu">
+      <UniqueIdentifier>{ec8dd40c-ca83-4653-980d-fdd850dfcdb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Menu\Menu">
+      <UniqueIdentifier>{f27d83bb-c89d-4834-93bc-982beb507fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Menu\MenuItem">
+      <UniqueIdentifier>{83f66ec0-5d0e-43ef-8f0d-6934500cc93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Trigger">
+      <UniqueIdentifier>{6609f2f8-e046-44c9-a7db-464e099e7cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Heal">
+      <UniqueIdentifier>{835d640c-4359-40c3-9655-5b18d978128a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Stunned">
+      <UniqueIdentifier>{c0a63fa9-c3fd-4c8c-ac10-109701c57d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Effect\PlayerTrail">
+      <UniqueIdentifier>{b2d26a19-9d8f-494e-aa49-993bdafb9066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Room">
+      <UniqueIdentifier>{3668b35e-d661-42e3-9a4e-a147d2224ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Shadow">
+      <UniqueIdentifier>{179033ac-b7b6-4670-ae5c-bc33e211aa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\BackGround">
+      <UniqueIdentifier>{f953c1d7-1caa-482f-806e-5e1c4e9b0ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\HitDetector">
+      <UniqueIdentifier>{469dffe7-705d-498c-8f73-1fd4b5ba2336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\HUD">
+      <UniqueIdentifier>{7e324bb0-72d9-43ad-96b7-6432f0bdbda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Fall">
+      <UniqueIdentifier>{659946d8-e892-4c35-8cc2-4b9611873147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\BirdMan">
+      <UniqueIdentifier>{1502262e-8ca2-4747-b555-52bb3ed36a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\BirdMan\Idle">
+      <UniqueIdentifier>{9af58e82-8ffa-409b-a7b3-369f463196b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\BirdMan\Fly">
+      <UniqueIdentifier>{826d34f5-e2d3-4024-98de-c8653ef2aa8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\BirdMan\Dive">
+      <UniqueIdentifier>{c0221ae6-47a8-4efd-af99-bb272fa419ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Trigger\BossTrigger">
+      <UniqueIdentifier>{d41ad27f-2a29-434a-b071-4e7e067f55df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Block\RisingBlock">
+      <UniqueIdentifier>{3803dea5-f377-47a8-849e-54155211aa8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\Spectator">
+      <UniqueIdentifier>{ac8d2294-9c26-4c0b-9608-1e486a63153e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerState\Victory">
+      <UniqueIdentifier>{f2fd9ebd-2d26-4c81-865c-51f295230d53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAimScript.h">
+      <Filter>Script\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMoveScript.h">
+      <Filter>Script\CameraMove</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>Script\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>Script\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerIdle.h">
+      <Filter>Script\Player\PlayerState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMove.h">
+      <Filter>Script\Player\PlayerState\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerDash.h">
+      <Filter>Script\Player\PlayerState\Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAttack.h">
+      <Filter>Script\Player\PlayerState\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerShoot.h">
+      <Filter>Script\Player\PlayerState\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectileScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackScript.h">
+      <Filter>Script\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="CBirdManScript.h">
+      <Filter>Script\Monster\BirdMan</Filter>
+    </ClInclude>
+    <ClInclude Include="CBirdManIdle.h">
+      <Filter>Script\Monster\BirdMan\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CBirdManFly.h">
+      <Filter>Script\Monster\BirdMan\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="CBirdManDive.h">
+      <Filter>Script\Monster\BirdMan\Dive</Filter>
+    </ClInclude>
+    <ClInclude Include="CCultBirdScript.h">
+      <Filter>Script\Monster\CultBird</Filter>
+    </ClInclude>
+    <ClInclude Include="CCultBirdIdle.h">
+      <Filter>Script\Monster\CultBird\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CCultBirdMove.h">
+      <Filter>Script\Monster\CultBird\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="CCultBirdAttack.h">
+      <Filter>Script\Monster\CultBird\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="CCultBirdDodge.h">
+      <Filter>Script\Monster\CultBird\Dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="CCultBirdStunned.h">
+      <Filter>Script\Monster\CultBird\Stunned</Filter>
+    </ClInclude>
+    <ClInclude Include="CGhostBeamBirdScript.h">
+      <Filter>Script\Monster\GhostBeamBird</Filter>
+    </ClInclude>
+    <ClInclude Include="CGhostBeamBirdIdle.h">
+      <Filter>Script\Monster\GhostBeamBird\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CGhostBeamBirdAttack.h">
+      <Filter>Script\Monster\GhostBeamBird\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="CGhostBeamBirdWalk.h">
+      <Filter>Script\Monster\GhostBeamBird\Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="CWarpHammerScript.h">
+      <Filter>Script\Monster\WarpHammer</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockScript.h">
+      <Filter>Script\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="CHUDScript.h">
+      <Filter>Script\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="CZOrderScript.h">
+      <Filter>Script\ZOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="CJerkPopeScript.h">
+      <Filter>Script\Monster\JerkPope</Filter>
+    </ClInclude>
+    <ClInclude Include="CJerkPopeIdle.h">
+      <Filter>Script\Monster\JerkPope\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CJerkPopeAttack.h">
+      <Filter>Script\Monster\JerkPope\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="CJerkPopeTeleport.h">
+      <Filter>Script\Monster\JerkPope\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="CJerkPopeSpawn.h">
+      <Filter>Script\Monster\JerkPope\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuScript.h">
+      <Filter>Script\Menu\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuItemScript.h">
+      <Filter>Script\Menu\MenuItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CTriggerScript.h">
+      <Filter>Script\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHeal.h">
+      <Filter>Script\Player\PlayerState\Heal</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerStunned.h">
+      <Filter>Script\Player\PlayerState\Stunned</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerTrailScript.h">
+      <Filter>Script\Effect\PlayerTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectAnimScript.h">
+      <Filter>Script\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomScript.h">
+      <Filter>Script\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="CShadowScript.h">
+      <Filter>Script\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackGroundScript.h">
+      <Filter>Script\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitDetectorScript.h">
+      <Filter>Script\HitDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerFall.h">
+      <Filter>Script\Player\PlayerState\Fall</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossTriggerScript.h">
+      <Filter>Script\Trigger\BossTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="CRisingBlockScript.h">
+      <Filter>Script\Block\RisingBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpectatorScript.h">
+      <Filter>Script\Monster\Spectator</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerVictory.h">
+      <Filter>Script\Player\PlayerState\Victory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAimScript.cpp">
+      <Filter>Script\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMoveScript.cpp">
+      <Filter>Script\CameraMove</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>Script\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>Script\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerIdle.cpp">
+      <Filter>Script\Player\PlayerState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMove.cpp">
+      <Filter>Script\Player\PlayerState\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerDash.cpp">
+      <Filter>Script\Player\PlayerState\Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttack.cpp">
+      <Filter>Script\Player\PlayerState\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerShoot.cpp">
+      <Filter>Script\Player\PlayerState\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectileScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectAnimScript.cpp">
+      <Filter>Script\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackScript.cpp">
+      <Filter>Script\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="CBirdManScript.cpp">
+      <Filter>Script\Monster\BirdMan</Filter>
+    </ClCompile>
+    <ClCompile Include="CBirdManIdle.cpp">
+      <Filter>Script\Monster\BirdMan\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CBirdManFly.cpp">
+      <Filter>Script\Monster\BirdMan\Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="CBirdManDive.cpp">
+      <Filter>Script\Monster\BirdMan\Dive</Filter>
+    </ClCompile>
+    <ClCompile Include="CCultBirdScript.cpp">
+      <Filter>Script\Monster\CultBird</Filter>
+    </ClCompile>
+    <ClCompile Include="CCultBirdIdle.cpp">
+      <Filter>Script\Monster\CultBird\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CCultBirdMove.cpp">
+      <Filter>Script\Monster\CultBird\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="CCultBirdAttack.cpp">
+      <Filter>Script\Monster\CultBird\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="CCultBirdDodge.cpp">
+      <Filter>Script\Monster\CultBird\Dodge</Filter>
+    </ClCompile>
+    <ClCompile Include="CCultBirdStunned.cpp">
+      <Filter>Script\Monster\CultBird\Stunned</Filter>
+    </ClCompile>
+    <ClCompile Include="CGhostBeamBirdScript.cpp">
+      <Filter>Script\Monster\GhostBeamBird</Filter>
+    </ClCompile>
+    <ClCompile Include="CGhostBeamBirdIdle.cpp">
+      <Filter>Script\Monster\GhostBeamBird\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CGhostBeamBirdAttack.cpp">
+      <Filter>Script\Monster\GhostBeamBird\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="CGhostBeamBirdWalk.cpp">
+      <Filter>Script\Monster\GhostBeamBird\Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="CWarpHammerScript.cpp">
+      <Filter>Script\Monster\WarpHammer</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockScript.cpp">
+      <Filter>Script\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="CHUDScript.cpp">
+      <Filter>Script\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="CZOrderScript.cpp">
+      <Filter>Script\ZOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="CJerkPopeScript.cpp">
+      <Filter>Script\Monster\JerkPope</Filter>
+    </ClCompile>
+    <ClCompile Include="CJerkPopeIdle.cpp">
+      <Filter>Script\Monster\JerkPope\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CJerkPopeAttack.cpp">
+      <Filter>Script\Monster\JerkPope\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="CJerkPopeTeleport.cpp">
+      <Filter>Script\Monster\JerkPope\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="CJerkPopeSpawn.cpp">
+      <Filter>Script\Monster\JerkPope\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuScript.cpp">
+      <Filter>Script\Menu\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuItemScript.cpp">
+      <Filter>Script\Menu\MenuItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CTriggerScript.cpp">
+      <Filter>Script\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHeal.cpp">
+      <Filter>Script\Player\PlayerState\Heal</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerStunned.cpp">
+      <Filter>Script\Player\PlayerState\Stunned</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerTrailScript.cpp">
+      <Filter>Script\Effect\PlayerTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomScript.cpp">
+      <Filter>Script\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="CShadowScript.cpp">
+      <Filter>Script\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackGroundScript.cpp">
+      <Filter>Script\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitDetectorScript.cpp">
+      <Filter>Script\HitDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerFall.cpp">
+      <Filter>Script\Player\PlayerState\Fall</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossTriggerScript.cpp">
+      <Filter>Script\Trigger\BossTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="CRisingBlockScript.cpp">
+      <Filter>Script\Block\RisingBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpectatorScript.cpp">
+      <Filter>Script\Monster\Spectator</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerVictory.cpp">
+      <Filter>Script\Player\PlayerState\Victory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

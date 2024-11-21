@@ -1,0 +1,6 @@
+CAimScript
+CCameraMoveScript
+CMissileScript
+CMonsterScript
+CPlayerScript
+CScriptMgr
